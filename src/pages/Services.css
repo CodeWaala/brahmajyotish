@@ -1,4 +1,4 @@
-.hero {
+.service {
   background-color: var(--overlay);
   color: #fff;
   height: 100vh;
@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.hero:before {
+.service:before {
   content: "";
   background: url("../images/indore-mahakal.jpeg") no-repeat center center/cover;
   height: 100%;
@@ -17,7 +17,7 @@
   z-index: -1;
 }
 
-.hero .content {
+.service .content {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -27,26 +27,26 @@
   padding: 1rem;
 }
 
-.hero .content p:first-child {
+.service .content p:first-child {
   font-style: italic;
   font-size: 0.9rem;
 }
 
-.hero .content p:nth-child(2) {
+.service .content p:nth-child(2) {
   font-size: 1.9rem;
 }
 
-.hero .content p:nth-child(3) {
+.service .content p:nth-child(3) {
   font-size: 5rem;
   font-weight: 700;
 }
 
-.hero .content p:nth-child(4) {
+.service .content p:nth-child(4) {
   font-size: 2.2rem;
   font-style: italic;
 }
 
-.hero .button {
+.service .button {
   margin: 1rem 0;
   width: 300px;
   background-color: var(--secondary-color);
@@ -54,17 +54,17 @@
   color: #333;
 }
 
-.hero .button:hover {
+.service .button:hover {
   background-color: var(--secondary-dark);
   border: 1px solid var(--secondary-dark);
 }
 
 @media screen and (max-width: 940px) {
-  .hero .content p:nth-child(3) {
+  .service .content p:nth-child(3) {
     font-size: 2.6rem;
   }
 
-  .hero .content p:nth-child(4) {
+  .service .content p:nth-child(4) {
     font-size: 1.6rem;
   }
 }
